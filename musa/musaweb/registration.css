@@ -1,0 +1,23 @@
+body{
+    background-color: grey;
+}
+.link1 ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.link1 ul li{
+    float: left;
+    background-color: grey;
+    height: 40px;
+    width: 200px;
+    border: 2px solid wheat;
+}
+ul li a{
+   text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:green;
+}

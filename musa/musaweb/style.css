@@ -1,0 +1,44 @@
+.link1 ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.link1 ul li{
+    float: left;
+    background-color: grey;
+    height: 40px;
+    width: 200px;
+    border: 2px solid wheat;
+}
+ul li a{
+   text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: grey;
+}
+.item{
+    border: 2px solid wheat;
+    text-align: center;
+}
+.container1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: grey;
+}
+.link2 ul{
+    list-style: none;
+}
+.link2 ul li {
+    height: 40px;
+    width: 200px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: grey;
+}
+button{
+    border-radius: 10px;
+}

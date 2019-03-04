@@ -1,0 +1,178 @@
+/* CSS Document */
+nav
+{
+height:150px;
+width:100%;
+}
+nav ul
+{
+padding:0px;
+margin:0px;
+}
+nav ul li
+{
+float:right;
+padding:20px;
+}
+nav ul li a
+{
+text-decoration:none;
+font-size:16px;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+nav img
+{
+height:100%;
+width:180px;
+position:relative;
+left:30px;
+}
+#trapezoid {
+   width: 600px;
+  height: 200px;
+  transform: perspective(10px) rotateX(1deg);
+  margin: 50px;
+	position:relative;
+	left:300px;
+	top:40px;
+	background-image:url(image/1_Cbj_BcK5ePD4Mc4TK4sfvQ.jpeg);
+	background-repeat:no-repeat;
+	background-size:595px 197px;
+	back
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  padding: 10px;
+  grid-gap:90px;
+  position:absolute;
+  left:350px;
+  width:300px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  font-size: 16px;
+  width:300px;
+  position:relative;
+  left:100px;
+  height:60px;
+  width:400px;
+  border:0px;
+}
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius:50%;
+  position:relative;
+  top:-15px;
+  background-image:url(image/depositphotos_27416693-stock-illustration-a-boy-in-the-library.jpg);
+  background-size:100% 100%;
+  height:60px;
+  width:50px;
+  border:0px solid gray;
+}
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius:50%;
+  position:relative;
+  top:-15px;
+  background-image:url(image/in.png);
+  background-size:100% 100%;
+  height:60px;
+  width:50px;
+  border:0px solid gray;
+}
+.grid-item3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius:50%;
+  position:relative;
+  top:-15px;
+  background-image:url(image/ewt.png);
+  background-size:100% 100%;
+  height:60px;
+  width:50px;
+  border:0px solid gray;
+}
+footer
+{
+background:#003333;
+height:70px;
+width:100%;
+position:relative;
+top:300px;
+}
+.books
+{
+width:100%;
+height:90px;
+position:relative;
+top:15px;
+border-radius:20px;
+background:red;
+background-image:url(image/books.jpg);
+background-size:100% 100px;
+background-repeat:no-repeat;
+}
+.menu
+{
+width:200px;
+height:auto;
+position:relative;
+top:0px;
+left:-40px;
+}
+.menu ul
+{
+padding:0px;
+margin:0px;
+}
+.menu ul li
+{
+display:block;
+padding:13px;
+}
+.menu ul li a
+{
+text-decoration:none;
+color:#3300CC;
+}
+.bookdiv
+{
+position:relative;
+left:600px;
+top:90px;
+width:250px;
+height:150px;
+background-image:url(image/books-521812297.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+
+}
+.bookdiv img
+{
+position:absolute;
+top:7px;
+left:auto;
+border-radius:40px;
+width:200px;
+}
+div a
+{
+font-size:14px;
+text-decoration:none;
+position:relative;
+top:90px;
+}
